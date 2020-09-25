@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabajo Integrador JS</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<script src="js/funciones.js"></script>
+</head>
+
+
+<body>
+	<div id="principal" class="principal">
+		
+		<div class="titulo">
+			<h1>Juego de Memoria</h1>
+		</div>
+		
+		<div class="iniciar">
+			<div class="formulario" id="formulario">
+				<input type="text" id="nombre" name="nombre" placeholder="Nombre...">
+				<input type="number" id="edad" name="edad" placeholder="Edad...">
+				<input type="email" id="email" name="email" placeholder="E-mail...">
+				<button type="button" onclick="validarFormulario()">Iniciar Juego</button>
+				
+			</div>
+			<br>
+			<input type="text" id="contador" class="contador">
+		</div>
+
+		
+
+		<div id="juego">
+			<table id='tablero' border="0">
+				
+			</table>
+		</div>
+
+	</div>
+
+	<div id="ganaste" class="ganaste ocultar">
+		<!-- <h2>🥳 🎉 🎊 Felicitaciones!!! 🥳 🎉 🎊</h2> -->
+		<br><br>
+		<h2>Ganaste!!!</h2>
+			
+	</div>
+	
+
+</body>
+</html>
